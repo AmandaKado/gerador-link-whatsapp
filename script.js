@@ -31,7 +31,6 @@ function gerarLinkWhatsApp() {
         const numeroFormatado = numero.replace(/\D/g, "");
         // Monte o link com a mensagem
         const link = `https://wa.me/${numeroFormatado}?text=Hello%20${nome}%2C%20how%20are%20you%3F%20Patricia%20from%20Click%20Millionaire%20here!%20`;
-        linkGerado.innerHTML = `<a href="${link}" target="_blank">${link}</a>`;
 
         // Copie o link para a área de transferência
         copiarLinkParaAreaDeTransferencia(link);
