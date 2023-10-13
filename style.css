@@ -10,3 +10,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFE4C4;
 }
+
+header {
+    background-color: #d6a2e8;
+    padding: 30px;
+}
+
+main {
+    margin: 30px;
+}
