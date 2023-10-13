@@ -8,7 +8,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('imagens/background.jpg');
+    background: #000 url('imagens/imgcorreta.jpg') no-repeat right top;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,18 +17,18 @@ body {
 }
 
 main {
-    background: rgba(68, 53, 65, 0.625);
-    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.342);
+    border-radius: 50px;
     padding: 30px;
     margin: 30px;
-    width: 500px;
-    height: 70vh;
+    min-width: 500px;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 2px solid rgba(0, 0, 0, 0.299);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(20px);
 }
 
 section {
@@ -35,16 +36,17 @@ section {
 }
 
 input {
-    background-color: rgba(0, 0, 0, 0.438);
-    color: rgba(0, 255, 255, 0.632);
+    background-color: rgba(14, 5, 92, 0.267);
+    color: rgb(6, 2, 43);
     border-radius: 50px;
     border: 0px;
     width: 400px;
-    padding: 15px;
+    padding: 20px;
 }
 
 input::placeholder {
-    color: rgba(0, 255, 255, 0.632);
+    color: rgb(6, 2, 43);
+    padding: 15px;
 }
 
 button {
@@ -52,12 +54,13 @@ button {
     border: 0px;
     width: 400px;
     padding: 15px;
-    background-color: violet;
+    background-color: rgb(10, 20, 66);
+    color: rgb(143, 154, 204);
     font-weight: bold;
 }
 
 h1 {
-    color: rgb(249, 168, 234);
+    color: rgb(13, 35, 75);
     padding: 0px 0px 20px 0px;
 }
 
@@ -79,6 +82,7 @@ h1 {
         min-width: 90vw;
         min-height: 8vh;
         font-size: 2em;
+        text-align: center;
     }
 
     input::placeholder {
