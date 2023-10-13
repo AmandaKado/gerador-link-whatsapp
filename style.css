@@ -77,13 +77,12 @@ h1 {
 
     input {
         min-width: 90vw;
-        min-height: 5vh;
+        min-height: 8vh;
         font-size: 2em;
     }
 
     input::placeholder {
         font-size: 2em;
-        text-align: center;
     }
 
     button {
