@@ -8,33 +8,59 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFE4C4;
-}
-
-header {
-    background-color: #d6a2e8;
-    padding: 30px;
+    background-image: url('imagens/background.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(5px);
 }
 
 main {
+    background: rgba(68, 53, 65, 0.625);
+    border-radius: 10px;
+    padding: 30px;
     margin: 30px;
+    width: 500px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px solid rgba(0, 0, 0, 0.299);
 }
 
 section {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 input {
-    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: rgba(0, 255, 255, 0.632);
+    border-radius: 50px;
     border: 0px;
-    padding: 3px;
+    width: 400px;
+    padding: 15px;
+}
+
+input::placeholder {
+    color: rgba(0, 255, 255, 0.632);
 }
 
 button {
-    border: 1px solid #d6a2e8;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: #d6a2e8;
+    border-radius: 50px;
+    border: 0px;
+    width: 400px;
+    padding: 15px;
+    background-color: violet;
+    font-weight: bold;
 }
+
+h1 {
+    color: rgb(249, 168, 234);
+    padding: 0px 0px 20px 0px;
+}
+
+
 
 

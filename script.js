@@ -38,7 +38,7 @@ function gerarLinkWhatsApp() {
 
         alert("Link copiado para a área de transferência!");
     } else {
-        linkGerado.innerHTML = "Por favor, insira um número de WhatsApp válido.";
+        alert("Por favor, insira um número de WhatsApp válido.");
     }
 }
 
