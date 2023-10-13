@@ -13,7 +13,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    backdrop-filter: blur(5px);
 }
 
 main {
@@ -28,6 +27,7 @@ main {
     align-items: center;
     justify-content: center;
     box-shadow: 2px solid rgba(0, 0, 0, 0.299);
+    backdrop-filter: blur(2px);
 }
 
 section {
@@ -61,10 +61,10 @@ h1 {
     padding: 0px 0px 20px 0px;
 }
 
-@media (max-device-width: 600px) and (orientation: landscape) {
+@media (max-device-width: 600px) {
     main {
-        min-height: 100%;
-        min-width: 100%;
+        height: 100vh;
+        min-width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
