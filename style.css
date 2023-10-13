@@ -46,7 +46,7 @@ input {
 
 input::placeholder {
     color: rgb(6, 2, 43);
-    padding: 15px;
+    padding: 20px;
 }
 
 button {
