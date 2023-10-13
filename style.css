@@ -78,6 +78,7 @@ h1 {
     input {
         min-width: 90vw;
         min-height: 5vh;
+        font-size: 2em;
     }
 
     input::placeholder {
