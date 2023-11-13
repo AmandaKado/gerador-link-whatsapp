@@ -84,9 +84,6 @@ h1 {
         padding: 20px 60px;
     }
 
-    input::placeholder {
-    }
-
     button {
         min-width: 90vw;
         min-height: 5vh;
